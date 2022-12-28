@@ -1,0 +1,302 @@
+#top-header {
+  font-size: 12px;
+  line-height: 13px;
+  z-index: 100000;
+  color: #fff;
+  font-family: bahnschrift;
+}
+
+#top-header .container {
+  padding-top: 0.75em;
+  font-weight: 600;
+}
+
+.et_fullwidth_secondary_nav #top-header .container {
+  width: 100%;
+  max-width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.container {
+  text-align: right;
+  position: relative;
+  width: 80%;
+  max-width: 1080px;
+  margin-right: 0;
+}
+
+#top-header, #et-secondary-nav {
+  -webkit-transition: background-color .4s,transform .4s,opacity .4s ease-in-out;
+  -webkit-transition: background-color .4s,opacity .4s ease-in-out,-webkit-transform .4s;
+  transition: background-color .4s,opacity .4s ease-in-out,-webkit-transform .4s;
+  transition: background-color .4s,transform .4s,opacity .4s ease-in-out;
+  transition: background-color .4s,transform .4s,opacity .4s ease-in-out,-webkit-transform .4s;
+}
+
+#et-secondary-menu #list {
+  word-wrap: break-word;
+}
+
+#et-secondary-nav #list {
+  position: relative;
+  text-align: right;
+  margin-right: 15px;
+}
+
+#et-secondary-nav a {
+  -webkit-transition: background-color .4s,color .4s ease-in-out;
+  transition: background-color .4s,color .4s ease-in-out;
+}
+
+#et-secondary-nav, #et-secondary-nav #list {
+  display: inline-block;
+}
+#et-secondary-menu #list, #top-menu #list {
+  word-wrap: break-word;
+}
+
+#et-info, #et-secondary-menu>.menu>#list a {
+  display: block;
+}
+#et-secondary-nav a {
+  -webkit-transition: background-color .4s,color .4s ease-in-out;
+  transition: background-color .4s,color .4s ease-in-out;
+}
+#top-header a, #top-header a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+#top-header a:hover {
+  color: #a8e220;
+}
+
+#top-header, #et-secondary-nav #list .menu {
+  background-color: #0d5789;
+}
+
+#et-secondary-nav, #et-secondary-nav #list {
+  display: inline-block;
+}
+
+#list {
+  text-align: -webkit-match-parent;
+}
+
+#et-secondary-nav>#list:last-child {
+  margin-right: 0;
+}
+
+.menu {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+#header {
+  margin: 0;
+  padding: 0;
+  position: static;
+  width: 100%;
+}
+
+#header div {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 10px #569098;
+  margin: 0px;
+  width: 100%;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+}
+
+#header div a.logo img{
+  display: block;
+  /*height: 60px;*/
+  padding: 0;
+  width: auto;
+}
+
+body {
+background-size: auto;
+margin: 0;
+padding: 0;
+position: block;
+width: auto;
+height: max-content;
+}
+
+body #kolomkonten {
+background-color: #d7dedf;
+background-size: cover;
+}
+
+body #judul {
+  width: 1000px;
+  margin: 0px 250px 0px 250px ;
+  padding: 20px 0 0 0;
+}
+body #judul h1 {
+color: #0d5789;
+padding-bottom: 5px;
+}
+
+form {
+font-family: bahnschrift;
+margin-left: 50px;
+}
+
+.fullCard {
+  width: 1000px;
+  height: 580px;
+  /*border: 3px solid #F8F4EC;*/
+  border-radius: 5px;
+  margin: 0px 250px 0px 250px ;
+  padding: 4px;
+  background-color: #0d5789a3;
+  box-shadow: 0 3px 20px rgb(0 0 0 / 50%);
+}
+
+.cardContent {
+  padding: 10px;
+}
+
+.cardText {
+  margin-bottom: 30px;
+}
+
+body #form div label {
+  color: #fff;
+}
+
+body #form div button {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: black;
+}
+
+body #form div button:hover {
+  background-color: #0d5789;
+  border-color: #0d5789;
+  color: white;
+}
+
+.et_pb_row_1_tb_footer.et_pb_row {
+    padding-right: 56px!important;
+    padding-left: 56px!important;
+    padding-right: 56px!important;
+    padding-left: 56px!important;
+}
+.et_pb_row_1_tb_footer.et_pb_row {
+    padding-top: 23px!important;
+    padding-bottom: 23px!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+.et_pb_row_1_tb_footer, body #page-container .et-db #et-boc .et-l .et_pb_row_1_tb_footer.et_pb_row, body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_1_tb_footer.et_pb_row, body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_1_tb_footer.et_pb_row {
+    width: 100%;
+    max-width: 1300px;
+}
+.et_pb_row_1_tb_footer {
+    height: 70px;
+    max-height: 70px;
+}
+.container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container {
+    max-width: 1920px;
+}
+
+.et_pb_row {
+    max-width: 1080px;
+}
+
+.et_pb_row, .et_pb_column .et_pb_row_inner {
+    padding: 30px 0;
+}
+.et_pb_posts_nav a, .et_pb_row, .et_pb_row_inner, .et_pb_column, .et_pb_module, .et_pb_counters .et_pb_counter_container, .et_pb_portfolio_item, .et_pb_pricing_table, .et_pb_all_tabs, .et_pb_tab, .et_pb_slide, .et_pb_with_background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.et_pb_row {
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+    background-color: #0d5789!important;
+}
+
+footer {
+  background-color: #0d5789!important;
+}
+
+.mobile-menu {
+  float: right;
+  display: none;
+}
+
+.mobile-menu:hover {
+  cursor: pointer;
+  color: #a8e220;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -300px;
+  width: 250px;
+  background-color: rgba(9, 26, 67, 0.823);
+  transition: .3s;
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  list-style-type: none;
+  transition: .3s;
+  transition-property: background-color;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  font-family: bahnschrift;
+  color: #fff;
+  font-size: 15px;
+}
+
+.sidebar ul li:hover {
+  background-color: #a8e22098;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ .sidebar {
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu {
+    display: block;
+  }
+  #et-secondary-nav #list {
+    display: none;
+  }
+  #top-header {
+    padding-bottom: 0.75em;
+    line-height: 13px;
+  }
+  
+}
